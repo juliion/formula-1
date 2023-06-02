@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web&display=swap");
+
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+#background {
+  height: 100%;
+  background-image: linear-gradient(
+      rgba(1, 11, 27, 0.834),
+      rgba(14, 9, 43, 0.5)
+    ),
+    url("../src/assets/img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

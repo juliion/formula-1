@@ -1,0 +1,40 @@
+.menu {
+  color: #ffffff;
+  background: #e10600;
+  display: flex;
+  margin: 0 auto;
+  width: 100vw;
+  height: 71px;
+}
+.logo {
+  padding-top: 8px;
+}
+
+.logo img {
+  margin: 10px 16px;
+}
+
+.menu-item {
+  display: flex;
+  padding: 20px 16px;
+  cursor: pointer;
+}
+
+.item-text {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+  padding-right: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.menu-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.item-text.selected {
+  box-shadow: inset -1px -1px 0px #ffffff;
+  border-radius: 0px 0px 10px 0px;
+}

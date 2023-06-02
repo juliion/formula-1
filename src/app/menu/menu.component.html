@@ -1,0 +1,17 @@
+<div class="menu" *ngIf="isMenuOpen">
+  <div class="logo">
+    <img src="../../assets/img/logo.png" alt="logo" />
+  </div>
+  <div class="menu-item" (click)="select('schedule')">
+    <div class="item-text" [class.selected]="selectedItem === 'schedule'">
+      <i-feather class="menu-icon" name="calendar"></i-feather>
+      <p>Schedule</p>
+    </div>
+  </div>
+  <div class="menu-item" (click)="select('drivers')">
+    <div class="item-text" [class.selected]="selectedItem === 'drivers'">
+      <i-feather class="menu-icon" name="user"></i-feather>
+      <p>Drivers</p>
+    </div>
+  </div>
+</div>
