@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MenuComponent } from './menu/menu.component';
 import {
   ArrowUpCircle,
   ArrowDownCircle,
@@ -11,6 +10,7 @@ import {
   Calendar,
 } from 'angular-feather/icons';
 import { FeatherModule } from 'angular-feather';
+import { MenuComponent } from './common/menu/menu.component';
 
 const icons = {
   ArrowUpCircle,
