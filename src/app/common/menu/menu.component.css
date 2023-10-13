@@ -7,19 +7,10 @@
   height: 71px;
 }
 .logo  {
-  /* margin: 0; */
-  /* margin: 10px 16px; */
   cursor: pointer;
   display: flex;
   padding: 3px 16px 0 0;
-  /* border: 2px solid black; */
 }
-
-/* .logo a {
-  margin-bottom: 0;
-  padding: 0;
-  border: 1px solid black;
-} */
 
 .menu-item {
   display: flex;
