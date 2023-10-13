@@ -11,6 +11,10 @@ import {
 } from 'angular-feather/icons';
 import { FeatherModule } from 'angular-feather';
 import { MenuComponent } from './common/menu/menu.component';
+import { MainLayoutComponent } from './common/main-layout/main-layout.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { SchedulePageComponent } from './schedule-page/schedule-page.component';
+import { DriversPageComponent } from './drivers-page/drivers-page.component';
 
 const icons = {
   ArrowUpCircle,
@@ -20,7 +24,7 @@ const icons = {
 };
 
 @NgModule({
-  declarations: [AppComponent, MenuComponent],
+  declarations: [AppComponent, MenuComponent, MainLayoutComponent, MainPageComponent, SchedulePageComponent, DriversPageComponent],
   imports: [BrowserModule, AppRoutingModule, FeatherModule.pick(icons)],
   providers: [],
   bootstrap: [AppComponent],

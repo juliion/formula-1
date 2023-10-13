@@ -7,15 +7,10 @@ import * as feather from 'feather-icons';
   styleUrls: ['./menu.component.css'],
 })
 export class MenuComponent {
-  selectedItem: string | null = 'schedule';
   isMenuOpen: boolean = true;
 
   ngAfterViewInit() {
     feather.replace();
-  }
-
-  select(item: string) {
-    this.selectedItem = this.selectedItem = item;
   }
 
   toggleMenu() {
