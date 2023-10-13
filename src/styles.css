@@ -4,10 +4,9 @@ html {
   margin: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web&display=swap");
 
 body {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Formula1", sans-serif;
 }
 
 #background {
